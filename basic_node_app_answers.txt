@@ -1,0 +1,10 @@
+1. What is a Node module?
+A et of functions stored in one file to be imported into another file in an
+application.
+
+2. What is the main difference between exports and module.exports?
+Since `exports` is only a reference to `module.exports` it cannot reassign the
+object, only module.exports can do that.
+
+3. Why is using exports recommended?
+It prevents you from overwriting the exports object.
